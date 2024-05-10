@@ -38,3 +38,5 @@ pythonOpenTelemetry$ source ./venv/bin/activate
 (venv) pythonOpenTelemetry$ source ./env
 (venv) pythonOpenTelemetry$ opentelemetry-instrument python server.py
 ```
+
+This will bring up an uvicorn/fastapi web server listening on port 8000 which will send logs, traces, metrics to the hyperdx backend. Call the `/rolldice` endpoint to "roll the dice" and keep metrics regarding the frequency of each dice value (1-6).
