@@ -1,10 +1,10 @@
 This repo contains an example on using OpenTelemetry in a python app to send logs, traces, metrics to an hyperdx backend
 
 Documentation used:
-- (https://www.hyperdx.io/docs/install/python)
-- (https://opentelemetry.io/docs/languages/python/getting-started/)
+- https://www.hyperdx.io/docs/install/python
+- https://opentelemetry.io/docs/languages/python/getting-started/
 
-The [hyperdx distribution of OpenTelemetry for python(https://github.com/hyperdxio/hyperdx-py) made to simplify the setup is used in this project.
+The [hyperdx distribution of OpenTelemetry for python](https://github.com/hyperdxio/hyperdx-py) made to simplify the setup is used in this project.
 
 I based myself on [this example](https://opentelemetry.io/docs/languages/python/instrumentation/#metrics)
 
